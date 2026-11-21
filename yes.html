@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wehh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="accepted">
+        <h1 class="passcode"> Sure ka? Duda parin ako...<br>
+            Sige nga, ano yung password?
+        </h1>
+    </div>
+    <div class="password-container">
+        <h1> Enter Password</h1>
+        <div class="hint">
+            Hint: When did we become 'official'? (Format: MM/DD/YY) <br>
+            NOTE: <br>
+            Add "0" if the number isn't 2 digits (ex. January = 01) <br>
+            Year should be the last 2 digits only
+        </div>
+        <input type="password" id ="password" placeholder:"Input Password">
+        <button onclick="checkPassword()" style="margin-top: 10px">Submit</button>
+        <p id="message"></p>
+    </div>
+    <script src="password.js"></script>
+</body>
+</html>
